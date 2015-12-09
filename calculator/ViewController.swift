@@ -45,9 +45,7 @@ class ViewController: NSViewController
     
     @IBAction func multiplicationClick(button: NSButton)
     {
-        registerOperation { lhs, rhs in
-            return lhs * rhs
-        }
+        
     }
     
     @IBAction func divisionClick(button: NSButton)
