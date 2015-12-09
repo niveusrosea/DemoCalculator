@@ -53,7 +53,7 @@ class ViewController: NSViewController
     @IBAction func divisionClick(button: NSButton)
     {
         registerOperation { lhs, rhs in
-            return lhs * rhs
+            return lhs / rhs
         }
     }
     
